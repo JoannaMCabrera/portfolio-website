@@ -1,14 +1,36 @@
 * {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 	
 }
 .container {
+	background-color:  #FFF5E3;
+}
+.container .centered{
+	position: relative;
+	text-align: center;
+	color: saddlebrown;
+}
+.centered {
+	font-family: 'Alex Brush';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+}
+div .card {
 	background-image: url(images/bg2.jpg);
 }
-h1 {
-	font-family: 'Alex Brush';
+.lni-chevron-right:: {
+	content: "\ea5f";
+}
+*, ::after, ::before {
+	box-sizing: border-box;
 }
 
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}

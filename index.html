@@ -18,22 +18,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Yanone+Kaffeesatz:wght@300;400&display=swap" rel="stylesheet">
-
-
-    
  
   
   </head>
 
     <body class="container">
-      <div class="page-content">
-      <header class="header_banner">
-      <div container>
-        <h1 class="banner text-center font-weight-bold">Joanna Cabrera</h1>
-        <h2 class="banner text-center">Web Developer</h2>
-          <div class="row">
-              <div class="col-12 col-md-12 col-lg-12">
-                <nav class="navbar navbar-expand-md navbar-light">
+      <!-- NAV-BAR -->
+        <div class="row">
+             <div class="col-12 col-md-12 col-lg-12">
+                <nav class="navbar mb-5 mt-3 navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="#">JMC</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -57,36 +50,147 @@
                 </nav>  
                 </div>      
               </div>
-          </div>
-        </header>
-        <div class="page-content">
-          <div class="row">
-            <div class="col-12 col-md-6 order-md-1">
-              <img class= "img-fluid"src="images/picture.jpg">
-            </div>
-            <div class="col-12 col-md-6 order-md-2">
-              <h2 class="text-center"> Welcome to My Page</h2>
-              <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga vitae corporis, nihil aut enim harum. Laborum ipsa, nobis recusandae quasi, iure quae consequatur voluptatibus cum, ducimus labore omnis odio.</p>
-              <button>read more</button>
+
+
+          <div class="Container">
+            <img class="col-12 col-sm-12 col-md-12 width-50px height-70px mb-5"  src="images/banner.jpg" alt="portfolio" style=width: 100%;> 
+            <div class="centered font-weight-bold"> Joanna Cabrera
             </div>
           </div>
-          
+
+            
+          </div>
+
+
+
+          <!-- ABOUT ME -->
+          <section id="About">     
+            <div class="page-content">
+            <div class="row"> 
+              <div class="col-12 col-md-6 order-md-1 ">
+              <img class= " mb-5 img-fluid" src="images/picture.jpg">
+              </div>
+              <div class="col-12 col-md-6 order-md-2">
+              <h2 class="About text-center"> WHO IS JOANNA? </h2>
+                <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga vitae corporis, nihil aut enim harum. Laborum ipsa, nobis recusandae quasi, iure quae consequatur voluptatibus cum, ducimus labore omnis odio.
+                </p>
+                <button type="button" class="btn btn-outline-secondary">more about me ></button>
+              </div>
+            </div>
+          </section>
+
+            <!-- PROJECTS -->
+            <section id="Projects">
+            <div class="Container mt-5 ">
+              <h2>WHAT I CAN DO..</h2>
+                <div class="card-group">
+                  <div class="card text-secondary mb-3" style="max-width: 50rem;">
+                    <div class="card-header font-weight-bold">My Best Work</div>
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Primary card title</h5>
+                      <img class= "img-fluid"src="images/pr2.jpg">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ratione repellat adipisci, laudantium obcaecati, tenetur quos, debitis nemo deserunt deleniti amet vel tempora? Laboriosam necessitatibus maiores eius placeat aspernatur, optio.</p>
+                        <button type="button" class="btn btn-outline-secondary">read more</button>
+                    </div>
+                  </div>
+                  <div class="card text-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header font-weight-bold">Most Recent Work</div>
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Secondary card title</h5>
+                      <img class= "img-fluid mb-3"src="images/pr3.jfif">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt tempore possimus quo repellat, ducimus ullam quidem consectetur, quas rem delectus minima, accusantium accusamus sequi nihil laborum fugit eligendi atque!</p>
+                        <button type="button" class="btn btn-outline-secondary">read more</button>
+                    </div>
+                  </div>
+                  <div class="card text-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header font-weight-bold">Another Great Work</div>
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Success card title</h5>
+                       <img class= "img-fluid"src="images/pr1.jpg">                    
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, accusantium ipsam tempore quia eum cupiditate a voluptate in repellat ducimus, sunt, facere temporibus assumenda! Consequuntur a accusamus perferendis. Aperiam, mollitia.</p>
+                      <button type="button" class="btn btn-outline-secondary">read more</button>
+                    </div>
+                  </div>
+                </div> 
+            </div>
+            </section>
+
+            <!-- CONTACTS -->
+            <section id="CONTACTS">
+              <div class="textforcontacts">
+                <h2 class="text-center">CONTACT ME</h2>
+                <p class="text-justify"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum ut nemo, aspernatur
+                </p>
+              </div>
+            </section>
+              <section id="Contactform">
+                <form>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                  </div>                   
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+                   <button type="button" class="btn btn-outline-secondary"> Submit</button>
+                </form>
+                <!-- MAP -->
+                <section id="map">
+                <div class="map mt-5">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.042341020122!2d121.00840291466248!3d14.42472278991466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d1c1fccdb945%3A0x63bde16b86c9989a!2sGladiola%20Rd%2C%20Las%20Pinas%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1628734168705!5m2!1sen!2sph" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                  </iframe>
+                </div>  
+              </section>
+
+              <!-- FOOTER -->
+              <section id="footer">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-title text-secondary"> Call 
+                      <a class="text-secondary" href="tel:+639560372230"> +63956-037-2230 </a>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="email text-secondary"> CabreraJoannaM@gmail.com 
+                    </p>
+                    <a href="https://www.instagram.com/joannaczantalle">
+                      <img src="images/instagram.png" width="60" height="60">
+                    </a>
+                     <a href="https://www.facebook.com/malditasenyorita03/">
+                      <img src="images/facebook.png" width="60" height="60">
+                    </a>
+                  
+                    <a href="https://www.linkedin.com/in/joanna-marie-cabrera-208a94181/">
+                      <img src="images/linkedin.png" width="50" height="50">
+                    </a>
+                  </div>
+                <div class="col-md-6"></div>
+
+                  </div>
+                </div>
+              
+                    
+                    </div>
+                  </div>
+              </section>
+         </div> 
         </div>
       </div>
-
               
-
-
-
-
-
-
-
-
-
-
-
-
    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
