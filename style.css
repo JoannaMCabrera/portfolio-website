@@ -1,36 +1,21 @@
 * {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	
 }
-.container {
-	background-color:  #FFF5E3;
-}
-.container .centered{
-	position: relative;
-	text-align: center;
-	color: saddlebrown;
-}
-.centered {
-	font-family: 'Alex Brush';
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	font-size: 50px;
-}
-div .card {
+body {
 	background-image: url(images/bg2.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.lni-chevron-right:: {
-	content: "\ea5f";
-}
-*, ::after, ::before {
-	box-sizing: border-box;
+h1 {
+	font-family: 'Alex brush';
 }
 
-#btn-back-to-top {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	display: none;
+.card-body {
+	background-color: skyblue;
+}
+
+.card-header {
+	background-color:skyblue;
 }
